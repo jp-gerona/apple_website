@@ -1,7 +1,7 @@
-const VideoCarousel = () => {
-  return (
-    <div>VideoCarousel</div>
-  )
-}
+import React from "react";
 
-export default VideoCarousel
+const VideoCarousel = () => {
+  return <div>VideoCarousel</div>;
+};
+
+export default VideoCarousel;
