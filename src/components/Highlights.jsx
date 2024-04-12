@@ -6,7 +6,7 @@ import VideoCarousel from "./VideoCarousel";
 
 const Highlights = () => {
   useGSAP(() => {
-    gsap.to("#section-title", { opacity: 1, y: 0 });
+    gsap.to("#highlights-heading", { opacity: 1, y: 0 });
     gsap.to(".link", { opacity: 1, y: 0, duration: 1, stagger: 0.25 });
   }, []);
 
@@ -17,7 +17,7 @@ const Highlights = () => {
     >
       <div className="screen-max-width">
         <div className="mb-12 w-full items-end justify-between md:flex">
-          <h1 id="section-title" className="section-heading">
+          <h1 id="highlights-heading" className="section-heading">
             Get the highlights.
           </h1>
 
