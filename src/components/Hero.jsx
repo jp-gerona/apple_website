@@ -32,9 +32,9 @@ const Hero = () => {
   return (
     <section className="nav-height relative w-full bg-black">
       <div className="flex-center h-5/6 w-full flex-col">
-        <p id="hero-title" className="hero-title">
+        <h1 id="hero-title" className="hero-title">
           iPhone 15 Pro
-        </p>
+        </h1>
         <div className="w-9/12 md:w-10/12">
           <video
             className="pointer-events-none"

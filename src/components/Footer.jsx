@@ -8,9 +8,14 @@ const Footer = () => {
         <div>
           <p className="text-xs font-semibold text-gray">
             More ways to shop:{" "}
-            <span className="text-blue underline">Find an Apple Store</span>
-            or <span className="text-blue underline">other retailer</span> near
-            you.
+            <span className="cursor-pointer text-blue underline">
+              Find an Apple Store
+            </span>
+            or{" "}
+            <span className="cursor-pointer text-blue underline">
+              other retailer
+            </span>{" "}
+            near you.
           </p>
           <p className="text-xs font-semibold text-gray">
             Or call 1800-1651-0525 (Smart/PLDT), 1800-8474-7382 (Globe).
@@ -24,9 +29,9 @@ const Footer = () => {
             Copyright @ 2024 Apple Inc. All rights reserved.
           </p>
 
-          <div className="flex">
+          <ul className="flex flex-wrap">
             {footerLinks.map((link, i) => (
-              <p
+              <li
                 key={link}
                 className="cursor-pointer text-xs font-semibold text-gray"
               >
@@ -34,9 +39,9 @@ const Footer = () => {
                 {i !== footerLinks.length - 1 && (
                   <span className="mx-2 cursor-default text-gray">|</span>
                 )}
-              </p>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </footer>
