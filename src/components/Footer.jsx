@@ -9,7 +9,7 @@ const Footer = () => {
           <p className="text-xs font-semibold text-gray">
             More ways to shop:{" "}
             <span className="cursor-pointer text-blue underline">
-              Find an Apple Store
+              Find an Apple Store{" "}
             </span>
             or{" "}
             <span className="cursor-pointer text-blue underline">
