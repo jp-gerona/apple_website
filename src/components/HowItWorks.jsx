@@ -19,6 +19,19 @@ const HowItWorks = () => {
       ease: "power2.inOut",
     });
 
+    // HIW video animation
+    // Does not use the animateWithGsap util function since it will be different
+    gsap.to("#hiwVideo", {
+      scrollTrigger: {
+        trigger: "#hiwVideo",
+        toggleActions: "play pause reverse restart",
+        start: "-10% bottom",
+      },
+      onComplete: () => {
+        videoRef.current.play();
+      },
+    });
+
     animateWithGsap(".g_fadeIn", {
       opacity: 1,
       y: 0,
@@ -56,6 +69,7 @@ const HowItWorks = () => {
             </div>
             <div className="hiw-video">
               <video
+                id="hiwVideo"
                 className="pointer-events-none"
                 playsInline
                 muted
