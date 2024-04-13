@@ -1,13 +1,27 @@
 import React from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { animateWithGsap } from "../utils/animations";
 import { rightImg, watchImg } from "../utils";
 import VideoCarousel from "./VideoCarousel";
 
 const Highlights = () => {
   useGSAP(() => {
-    gsap.to("#highlights-heading", { opacity: 1, y: 0 });
-    gsap.to(".link", { opacity: 1, y: 0, duration: 1, stagger: 0.25 });
+    animateWithGsap("#highlights-heading", { opacity: 1, y: 0 });
+
+    // Links animation
+    // Does not use the animateWithGsap util function since it will be different
+    gsap.to(".link", {
+      opacity: 1,
+      y: 0,
+      duration: 1,
+      stagger: 0.25,
+      scrollTrigger: {
+        trigger: ".link",
+        toggleActions: "restart reverse restart reverse",
+        start: "top 80%",
+      },
+    });
   }, []);
 
   return (
