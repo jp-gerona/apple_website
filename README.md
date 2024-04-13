@@ -15,33 +15,33 @@
 
 # Summary
 
-This project is a clone of Apple's [iPhone 15 Pro](https://www.apple.com/ph/iphone-15-pro/) landing page, built using React.js and TailwindCSS framework. The website powered by [GSAP](https://gsap.com) and [Three.js](https://threejs.org/) to provide users a seamless experience and a beautiful interface that will captivate users buying an iPhone 15 Pro.
+This project is a clone of Apple's [iPhone 15 Pro](https://www.apple.com/ph/iphone-15-pro/) landing page, built using React.js and TailwindCSS framework. The website is powered by [GSAP](https://gsap.com) and [Three.js](https://threejs.org/) to provide users a seamless experience and a beautiful interface that will captivate users in buying an iPhone 15 Pro.
 
 ## Features
 
-- **High-Performance:** The website is developed with performance in mind. It uses TailwindCSS, which is a utility-first framework with dead code elimination, reducing bloated CSS files. Additionally, it also uses lightweight javascript libraries in providing complex design implementations through GSAP and Three without sacrificing performance.
+- **High-Performance:** The website is developed with performance in mind. It uses TailwindCSS, which is a utility-first framework with dead code elimination, reducing bloated CSS files. Additionally, it also uses lightweight javascript libraries in providing complex design implementations through GSAP and Three without sacrificing performance. Sentry and Vercel's Speed Insights keep track of the website's performance.
 
 - **Powerful Animations by GSAP:** The website provides enhanced user experience through smooth and beautiful animations using GSAP (GreenSock Animation Platform). GSAP is a light-weight Javascript library used for high-performance animations.
 
 - **3D Model Rendering with Three.js:** The website uses React-Three-Fiber (R3F) in rendering 3D Models for React. Users can explore the iPhone 15 Pro from every angle, color, and size using Three.js dynamic 3D rendering. Three.js is a Javascript library used to create and display animated 3D computer graphics in a web browser using WebGL. You can check their website by clicking this link.
 
-- **Video Carousel:** The website provides users an engaging and unique interactive video carousel made possible with GSAP and React.
+- **Video Carousel:** The website provides users an engaging and unique interactive video carousel made possible with GSAP and React. Users are greeted with sliding videos showcasing the highlights of the model, as well as having the option to resume or pause the video.
 
-- **Responsiver User Design:** The website is responsive to large, medium, and small devices. Providing optimal and consistent viewing across different screen sizes.
+- **Responsiver User Design:** The website is responsive to large, medium, and small devices. Providing optimal and consistent viewing across different screen sizes. Responsive design is made easy thanks to TailwindCSS.
 
 ## Running the Application
 
-The application is deployed with Vercel. You can check the website out at https://jp-gerona-apple-website-clone.vercel.app/, or if you want to set-up this project in your local machine, follow these steps.
+The application is deployed using Vercel. You can check the website out at https://jp-gerona-apple-website-clone.vercel.app/, or if you want to set-up this project in your local machine, follow these steps.
 
 - Clone the repository
 - In your terminal, install the necessary dependencies by running `npm install`
 - Run the application in development mode using `npm run dev`
 - Run the application in build mode using `npm run build`
-- Vite will provide a URL to your local server: http://localhost:5173
+- Vite will provide a URL in the terminal to your local server: http://localhost:5173
 
 ## Additional Notes
 
-As stated with the note above, this project serves as a learning experience for me to understand and utilize the concepts of working with React and other front-end technologies. I will not use this project for **any reason** other than educational purposes only.
+As stated with the note above, this project serves as a learning experience for me to understand and utilize the concepts of working with React and other front-end technologies. I will not use this project for **any reason other than educational purposes only.**
 
 During this experience, I would say that using React opened a whole new world. To be more specific, it was really different from using plain/static HTML, CSS, and Javascript that I am used to. It felt like I was learning Web Development all over again.
 
